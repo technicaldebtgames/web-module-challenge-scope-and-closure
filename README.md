@@ -9,6 +9,9 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - Explain function scope
+
+There are local and global scopes in JS. When you create a function, it creates a new local scope for that function. Anything defined inside of a function will not be able to be accessed outside of that function.
+
 - Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
 
 A "closure" is the concept of a function being bundled together with references to its surrounding state. It gives you access to an outer function's scope in an inner function. Closures are created at each function's creation time.
@@ -65,6 +68,9 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+When name is used in the inner function, since name isn't defined anywhere within the inner function, and is only present in the parent as a parameter.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 c. What is the lexical scope of `newRoll`? 
 
