@@ -11,6 +11,8 @@ The module challenge is the afternoon project or assignment that students work t
 - Explain function scope
 - Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
 
+A "closure" is the concept of a function being bundled together with references to its surrounding state. It gives you access to an outer function's scope in an inner function. Closures are created at each function's creation time.
+
 ## Introduction
 
 This challenge focuses on both scope and closures.
