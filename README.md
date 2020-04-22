@@ -47,6 +47,11 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+From above:
+
+A "closure" is the concept of a function being bundled together with references to its surrounding state. It gives you access to an outer function's scope in an inner function. Closures are created at each function's creation time.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -72,7 +77,12 @@ a. Where is closure used in this code? How can you tell?
 When name is used in the inner function, since name isn't defined anywhere within the inner function, and is only present in the parent as a parameter.
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name and string will always be the same. The number result will be different... usually.
+
 c. What is the lexical scope of `newRoll`? 
+
+The scope of the const newRoll is limited to within its parent function (the anonymous function being returned).
 
 ### Task 3 - Stretch Goals
 
